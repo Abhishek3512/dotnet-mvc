@@ -1,47 +1,4 @@
-﻿@* @model List<DovetailSol.Models.EMP>
-
-<h2>Designation Page</h2>
-
-<form method="post" asp-controller="Designation" asp-action="Filter">
-    <label for="designation">Select Designation:</label>
-    <select name="designation" id="designation">
-        <option value="">-- Select --</option>
-        @foreach (var desg in ViewBag.Designations)
-        {
-            <option value="@desg" selected="@(ViewBag.SelectedDesignation == desg ? "selected" : null)">
-                @desg
-            </option>
-        }
-    </select>
-    <button type="submit">Filter</button>
-</form>
-
-@if (Model != null && Model.Any())
-{
-    <table border="1">
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Designation</th>
-        </tr>
-        @foreach (var emp in Model)
-        {
-            <tr>
-                <td>@emp.Id</td>
-                <td>@emp.Name</td>
-                <td>@emp.Designation</td>
-            </tr>
-        }
-    </table>
-}
-else
-{
-    <p>No employees found for this designation.</p>
-}
- *@
-
-
-    @model List<DovetailSol.Models.EMP>
+﻿@model List<DovetailSol.Models.EMP>
 
 <h2>Designation Page</h2>
 
