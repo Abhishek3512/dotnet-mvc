@@ -1,0 +1,34 @@
+﻿@model List<EMP>
+
+<h2>Department Filter</h2>
+
+<form method="post" asp-action="Filter">
+    <label>Select Department:</label>
+    <select name="department">
+        <option value="">-- Select --</option>
+        @foreach (var dept in ViewBag.Departments)
+        {
+            <option value="@dept">@dept</option>
+        }
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Name</td>
+                <td>@emp.Department</td>
+            </tr>
+        }
+    </tbody>
+</table>

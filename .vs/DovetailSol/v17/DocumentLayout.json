@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.netAPI\\DoveTail\\DovetailSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\designation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\designation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\empcrud\\designation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\empcrud\\designation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\empcrud\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\empcrud\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\controllers\\empcrudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\controllers\\empcrudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\empcrud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\empcrud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\views\\empcrud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\views\\empcrud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|d:\\.netapi\\dovetail\\dovetailsol\\dovetailsol\\middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF5384F-46A3-4030-B671-0826FBA731C4}|DovetailSol\\DovetailSol.csproj|solutionrelative:dovetailsol\\middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 151,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DesignationController.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\DesignationController.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Controllers\\DesignationController.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\DesignationController.cs",
+              "RelativeToolTip": "DovetailSol\\Controllers\\DesignationController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:20:17.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Designation\\Index.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\Designation\\Index.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Designation\\Index.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\Designation\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T16:05:03.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DovetailSol\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:24:56.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T11:19:03.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Designation.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Designation.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\EMPCRUD\\Designation.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Designation.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\EMPCRUD\\Designation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T15:04:19.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EMP.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Models\\EMP.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Models\\EMP.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Models\\EMP.cs",
+              "RelativeToolTip": "DovetailSol\\Models\\EMP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:11:20.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\appsettings.json",
+              "RelativeDocumentMoniker": "DovetailSol\\appsettings.json",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\appsettings.json",
+              "RelativeToolTip": "DovetailSol\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-23T11:19:15.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T14:54:28.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Program.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Program.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Program.cs",
+              "RelativeToolTip": "DovetailSol\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T19:32:08.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "DovetailSol\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:17:45.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\Department\\Index.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T13:16:06.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EMPCRUDController.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\EMPCRUDController.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Controllers\\EMPCRUDController.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\EMPCRUDController.cs",
+              "RelativeToolTip": "DovetailSol\\Controllers\\EMPCRUDController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAApwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:43:47.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Department.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Department.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\EMPCRUD\\Department.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Department.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\EMPCRUD\\Department.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T15:03:48.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\EMPCRUD\\Edit.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Edit.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\EMPCRUD\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T13:13:29.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T14:50:52.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Create.cshtml",
+              "RelativeDocumentMoniker": "DovetailSol\\Views\\EMPCRUD\\Create.cshtml",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Views\\EMPCRUD\\Create.cshtml",
+              "RelativeToolTip": "DovetailSol\\Views\\EMPCRUD\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T11:38:32.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DovetailSol\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:10:11.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DovetailSol\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:46:44.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthenticationMiddleware.cs",
+              "DocumentMoniker": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "DovetailSol\\Middleware\\AuthenticationMiddleware.cs",
+              "ToolTip": "D:\\.netAPI\\DoveTail\\DovetailSol\\DovetailSol\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeToolTip": "DovetailSol\\Middleware\\AuthenticationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:01:24.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

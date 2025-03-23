@@ -1,0 +1,33 @@
+﻿@model List<DovetailSol.Models.EMP>
+
+<h2>Designation Filter</h2>
+
+<form method="post" asp-controller="Designation" asp-action="Filter">
+    <label for="designation">Select Designation:</label>
+    <select name="designation" id="designation">
+        <option value="">-- Select --</option>
+        @foreach (var dept in ViewBag.Designation)
+        {
+            <option value="@dept" selected="@(ViewBag.SelectedDesignation == dept ? "selected" : null)">
+                @dept
+            </option>
+        }
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.Id</td>
+            <td>@emp.Name</td>
+            <td>@emp.Designation</td>
+        </tr>
+    }
+</table>

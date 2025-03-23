@@ -1,0 +1,40 @@
+﻿@model DovetailSol.Models.EMP
+
+<h2>Create Employee</h2>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Reporting </label>
+        <input type="text" asp-for="Reporting" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Department</label>
+        <select asp-for="Department" class="form-control" required>
+            <option value="">Select Department</option>
+            @foreach (var dept in ViewBag.Departments)
+            {
+                <option value="@dept">@dept</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Designation</label>
+        <select asp-for="Designation" class="form-control" required>
+            <option value="">Select Designation</option>
+            @foreach (var des in ViewBag.Designations)
+            {
+                <option value="@des">@des</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Date of Joining</label>
+        <input type="date" id="empDateOfJoining" name="DateOfJoining" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Cancel</a>
+</form>

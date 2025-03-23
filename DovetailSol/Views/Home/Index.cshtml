@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1 class="display-4">Welcome</h1>
+
+<a asp-controller="EMPCRUD" asp-action="Create" class="btn btn-success">Create</a>
+
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Reporting To</th>
+                <th>Department</th>
+                <th>Designation</th>
+                <th>DateOfJoining</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.Id</td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Reporting</td>
+                    <td>@emp.Department</td>
+                    <td>@emp.Designation</td>
+                    <td>@emp.DateOfJoining</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "EMPCRUD", new { id = emp.Id })" class="btn btn-primary">Edit</a>
+                        <form method="post" action="@Url.Action("Delete", "EMPCRUD")" style="display:inline;">
+                            <input type="hidden" name="id" value="@emp.Id" />
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No employees found.</p>
+}

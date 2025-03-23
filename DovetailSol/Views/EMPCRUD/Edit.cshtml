@@ -1,0 +1,27 @@
+﻿@model DovetailSol.Models.EMP
+
+<h2>Edit Employee</h2>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Reporting To</label>
+        <input type="text" asp-for="Reporting" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Department</label>
+        <select asp-for="Department" asp-items="new SelectList(ViewBag.Departments)" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label>Designation</label>
+        <select asp-for="Designation" asp-items="new SelectList(ViewBag.Designations)" class="form-control"></select>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Cancel</a>
+</form>
