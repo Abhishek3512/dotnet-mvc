@@ -144,3 +144,4 @@ D:\.netAPI\DoveTail\DovetailSol\DovetailSol\obj\Debug\net8.0\refint\DovetailSol.
 D:\.netAPI\DoveTail\DovetailSol\DovetailSol\obj\Debug\net8.0\DovetailSol.pdb
 D:\.netAPI\DoveTail\DovetailSol\DovetailSol\obj\Debug\net8.0\DovetailSol.genruntimeconfig.cache
 D:\.netAPI\DoveTail\DovetailSol\DovetailSol\obj\Debug\net8.0\ref\DovetailSol.dll
+D:\.netAPI\DoveTail\DovetailSol\DovetailSol\obj\Debug\net8.0\DovetailSol.sourcelink.json

@@ -22,6 +22,7 @@
                 <th>Department</th>
                 <th>Designation</th>
                 <th>DateOfJoining</th>
+                <th>City</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -35,6 +36,7 @@
                     <td>@emp.Department</td>
                     <td>@emp.Designation</td>
                     <td>@emp.DateOfJoining</td>
+                    <td>@emp.City</td>
                     <td>
                         <a href="@Url.Action("Edit", "EMPCRUD", new { id = emp.Id })" class="btn btn-primary">Edit</a>
                         <form method="post" action="@Url.Action("Delete", "EMPCRUD")" style="display:inline;">

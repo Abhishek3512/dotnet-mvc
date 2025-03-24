@@ -1,6 +1,7 @@
 ﻿using DovetailSol.Data;
 using DovetailSol.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace DovetailSol.Controllers
@@ -50,6 +51,8 @@ namespace DovetailSol.Controllers
         {
             ViewBag.Departments = GetDepartments();
             ViewBag.Designations = GetDesignations();
+            ViewBag.CityList = GetCity();
+
             return View(new EMP());
         }
         [HttpPost]
@@ -59,6 +62,7 @@ namespace DovetailSol.Controllers
             {
                 ViewBag.Departments = GetDepartments();
                 ViewBag.Designations = GetDesignations();
+
                 return View(employee); // Show errors if validation fails
             }
 
@@ -84,6 +88,11 @@ namespace DovetailSol.Controllers
             return new List<string> { "Intern", "Manager", "Developer", "Other" };
         }
 
+        private List<String> GetCity()
+        {
+            return new List<string> { "MUMBAI", "THANE", "NAVI-MUMBAI", "KALYAN" };
+        }
+
         public IActionResult Edit(int id)
         {
             var employee = _context.EMP.Find(id);
@@ -91,6 +100,7 @@ namespace DovetailSol.Controllers
 
             ViewBag.Departments = GetDepartments();
             ViewBag.Designations = GetDesignations();
+            ViewBag.CityList = new SelectList(GetCity());
             return View(employee);
         }
         [HttpPost]
@@ -100,6 +110,11 @@ namespace DovetailSol.Controllers
             {
                 ViewBag.Departments = GetDepartments();
                 ViewBag.Designations = GetDesignations();
+                ViewBag.CityList = GetCity().Select(c => new SelectListItem
+                {
+                    Value = c,
+                    Text = c
+                }).ToList();
                 return View(employee);
             }
 
@@ -108,6 +123,8 @@ namespace DovetailSol.Controllers
             TempData["SuccessMessage"] = "Details updated!";
             return RedirectToAction("Index" , "Home");
         }
+
+     
 
         [HttpPost]
         public IActionResult Delete(int id)
@@ -122,7 +139,40 @@ namespace DovetailSol.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        
+       
+        [HttpGet]
+        public IActionResult EditEmp(int id)
+        {
+            var employee = _context.EMP.Find(id);
+            if (employee == null)
+                return NotFound();
+
+            ViewBag.Department = GetDepartments();
+            ViewBag.Designations = GetDesignations();
+            ViewBag.CityList = GetCity().Select(c => new SelectListItem
+            {
+                Value = c,
+                Text = c
+            }).ToList();
+            return View(employee);
+        }
+
+        public IActionResult EditEmployee(EMP employee)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Department = GetDepartments();
+                ViewBag.Designations = GetDesignations();
+                return View(employee);
+            }
+
+            _context.EMP.Update(employee);
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Updated!";
+            return RedirectToAction("Index", "Home");
+        }
+
 
     }
 }

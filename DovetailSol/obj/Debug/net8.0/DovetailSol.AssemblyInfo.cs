@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DovetailSol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8103ab1e3854aeb1d544a2c19ce230e7882f9f6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DovetailSol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DovetailSol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

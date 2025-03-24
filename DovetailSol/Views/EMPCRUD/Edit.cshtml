@@ -22,6 +22,12 @@
         <label>Designation</label>
         <select asp-for="Designation" asp-items="new SelectList(ViewBag.Designations)" class="form-control"></select>
     </div>
+    <div class="form-group">
+        <label>City</label>
+        <select asp-for="City" asp-items="ViewBag.CityList" class="form-control"></select>
+    </div>
+
+
     <button type="submit" class="btn btn-primary">Save</button>
     <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Cancel</a>
 </form>

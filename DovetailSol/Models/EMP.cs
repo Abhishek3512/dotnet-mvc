@@ -20,5 +20,8 @@ namespace DovetailSol.Models
 
         [DataType(DataType.Date)]
         public DateTime DateOfJoining { get; set; }
+        [Required]
+            
+        public String City { get; set; }
     }
 }

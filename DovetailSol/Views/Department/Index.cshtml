@@ -1,40 +1,4 @@
-﻿@* @model List<DovetailSol.Models.EMP>
-
-<h2>Department</h2>
-
-<form method="post" asp-controller="Department" asp-action="Filter">
-    <label for="department">Select Department:</label>
-    <select name="department" id="department">
-        <option value="">-- Select --</option>
-        @foreach (var dept in ViewBag.Departments)
-        {
-            <option value="@dept" selected="@(ViewBag.SelectedDepartment == dept ? "selected" : null)">
-                @dept
-            </option>
-        }
-    </select>
-    <button type="submit">Filter</button>
-</form>
-
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Department</th>
-    </tr>
-    @foreach (var emp in Model)
-    {
-        <tr>
-            <td>@emp.Id</td>
-            <td>@emp.Name</td>
-            <td>@emp.Department</td>
-        </tr>
-    }
-</table>
- *@
-
-
- @model List<DovetailSol.Models.EMP>
+﻿ @model List<DovetailSol.Models.EMP>
 
 <h2>Department Page</h2>
 
@@ -46,7 +10,7 @@
             <option value="@dept">@dept</option>
         }
     </select>
-    <button type="submit" class="btn btn-primary mt-2">Filter</button>
+    <button type="submit" class="btn btn-primary mt-2">Search</button>
 </form>
 
 <table class="table mt-3">
